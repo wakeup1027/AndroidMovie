@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+html,body{padding:0px; margin:0px; height:100%; width:100%;}
+.PanerBox{height:100%;}
+.pageName{text-align: center;font-size: 25px;color: #fff;padding-top: 80px;}
+.inpInfo{width: 90%;margin: 20px auto;background: #fff;border-radius: 5px;}
+.remberPass{width: 90%;margin: auto;overflow: hidden;}
+#checkBoxId{margin-left: 15px; float: left;}
+.remPass{color: #fff; display: block; float: left; line-height: 22px; margin-left: 15px; font-size:13px}
+.inpuClass{width:225px; padding: 10px; border: none; color: #666; outline: none;}
+.loginBtn{text-align:center;width: 90%; background: #65CAFF; padding: 15px 0px; margin: 20px auto; border-radius: 5px; color: #fff;}

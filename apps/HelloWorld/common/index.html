@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>纸飞机电影网</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/iconfont.css">
+<link rel="stylesheet" href="css/admin/home.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+<!-- <link rel="stylesheet" href="css/jquery.mobile-1.3.2.min.css"> -->
+<script>window.$ = window.jQuery = WLJQ;</script>
+<style type="text/css">
+html,body{margin:0px; padding:0px;}
+.backColor{background:#1b1a1b;}
+#boxPaner li{line-height:30px; color:#fff; padding:5px 10px; border-bottom:1px solid #000;}
+#boxPaner li:last-child{border:none;}
+.innerUL li{width:100px; height:70px; float:left; line-height:70px; text-align:center;}
+.footUl li{float:left; width:33.3%; color:#fff; font-size:13px; text-align:center; padding:10px 0px 5px 0px; }
+</style>
+</head>
+<body>
+<div id="header" style="line-height:35px; margin:0px; padding:0px; background:#000; width:100%; height: 35px; overflow: hidden; position: fixed; z-index:100;">
+	<div class="headerch" style="width:20%;line-height:35px; float:left;" onclick="currentPage_main.backHome()">
+		<div style="float:left;">
+			<i class="iconfont icon-back iconsize_26 iconcolor_w"></i>
+		</div>
+		<div style="float:left; color:#fff;margin-left: 0px;">首页</div>
+		<div style="clear:both;"></div>
+	</div>
+	<div class="headerch" style="width:60%; text-align: center;line-height:35px; float:left;">
+		<div style="width:95%; margin:0px auto; color:#fff;">纸飞机电影网</div>
+	</div>
+	<div class="headerch" style="float:right; text-align:center;">
+		<i class="iconfont icon-search iconcolor_w" onclick="currentPage_main.findall()" style="font-size:19px;"></i>
+		<i class="iconfont icon-account iconsize_20 iconcolor_w" onclick="currentPage_main.loadPage()" style="margin-left:10px; margin-right:10px;"></i>
+	</div>
+	<div style="clear:both;"></div>
+</div>
+<div id="wrapper" data-role="page" style="padding-top:35px; padding-bottom:5px;"></div>
+<div id="bigdiv" onclick="currentPage_main.nonetalert()" style="width:100%; position:absolute; z-index:100; top:0px; left:0px; display:none;"></div>
+<div id="hwrapper" style="padding-top:35px; padding-bottom:5px; line-height:50px; text-align:center; display:none;">为了更好的视觉体验，请在竖屏下进行操作。</div>
+
+<script src="js/initOptions.js"></script>
+<script src="js/front/home.js"></script>
+<script src="js/main.js"></script>
+<script src="js/login.js"></script>
+<script src="js/messages.js"></script>
+<script src="js/front/MoreMoive.js"></script>
+<script src="js/front/details.js"></script>
+<script src="js/front/findall.js"></script>
+</body>
+</html>
